@@ -1,7 +1,7 @@
 # Calculadora Python PyQt5
 
 [![LICENCE](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/hansmboron/Calculadora_Python/blob/master/LICENSE)
-[![Python](https://img.shields.io/badge/Flutter-3.8.6-blue.svg)](https://www.python.org)
+[![Python](https://img.shields.io/badge/Python-3.8.6-blue.svg)](https://www.python.org)
 
 Calculadora poderosa feita com PyQt5
 
