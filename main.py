@@ -30,26 +30,25 @@ class Calculadora(QMainWindow):
             'background: red;'
         )
         self.add_btn(
-            QPushButton('<-'), 1, 1, 1, 1, lambda: self.display.setText(self.display.text()[:-1]),
-            'background: #353535;'
+            QPushButton('<-'), 1, 1, 1, 1, lambda: self.display.setText(self.display.text()[:-1])
         )
-        self.add_btn(QPushButton('%'), 1, 2, 1, 1, None, 'background: #353535;')
-        self.add_btn(QPushButton('/'), 1, 3, 1, 1, None, 'background: #353535;')
+        self.add_btn(QPushButton('%'), 1, 2, 1, 1)
+        self.add_btn(QPushButton('/'), 1, 3, 1, 1)
         self.add_btn(QPushButton('7'), 2, 0, 1, 1)
         self.add_btn(QPushButton('8'), 2, 1, 1, 1)
         self.add_btn(QPushButton('9'), 2, 2, 1, 1)
-        self.add_btn(QPushButton('*'), 2, 3, 1, 1, None, 'background: #353535;')
+        self.add_btn(QPushButton('*'), 2, 3, 1, 1)
         self.add_btn(QPushButton('4'), 3, 0, 1, 1)
         self.add_btn(QPushButton('5'), 3, 1, 1, 1)
         self.add_btn(QPushButton('6'), 3, 2, 1, 1)
-        self.add_btn(QPushButton('-'), 3, 3, 1, 1, None, 'background: #353535;')
+        self.add_btn(QPushButton('-'), 3, 3, 1, 1)
         self.add_btn(QPushButton('1'), 4, 0, 1, 1)
         self.add_btn(QPushButton('2'), 4, 1, 1, 1)
         self.add_btn(QPushButton('3'), 4, 2, 1, 1)
-        self.add_btn(QPushButton('+'), 4, 3, 1, 1, None, 'background: #353535;')
-        self.add_btn(QPushButton('()'), 5, 0, 1, 1, self.btn_brac, 'background: #353535;')
+        self.add_btn(QPushButton('+'), 4, 3, 1, 1)
+        self.add_btn(QPushButton('()'), 5, 0, 1, 1, self.btn_brac)
         self.add_btn(QPushButton('0'), 5, 1, 1, 1)
-        self.add_btn(QPushButton('.'), 5, 2, 1, 1, None, 'background: #353535;')
+        self.add_btn(QPushButton('.'), 5, 2, 1, 1)
         self.add_btn(
             QPushButton('=='), 5, 3, 1, 1,
             self.btn_igual,
